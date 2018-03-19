@@ -1,9 +1,5 @@
 # LiveAgentEvents
 
-## Summary
-
-A small library for creating custom LiveAgent Chat buttons in a more modern and flexible way.
-
 The LiveAgent chat API only has methods to set an html element with a given id to show or hide when chat is online. This is a major issue if you're trying to integrate with a virtual DOM library like that of React or Vue. LiveAgentEvents provides an event handler which will fire when a given button is online, decoupling the API from the DOM.
 
 ## 1. Setup
